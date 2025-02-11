@@ -48,7 +48,7 @@ services:
       - mysql:/var/lib/mysql
       - ./sql:/docker-entrypoint-initdb.d
     ports:
-      - "3306:3306"
+      - "3366:3306"
     networks:
       - my_network
     deploy:
